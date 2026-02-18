@@ -1,12 +1,12 @@
-server:
-  port: 8081
+#server:
+  #port: 8081
 
 spring:
   application:
     name: order-service
 
   config:
-    import: "configserver:http://localhost:8085"
+    import: configserver:http://localhost:8888
 
   profiles:
     active: dev

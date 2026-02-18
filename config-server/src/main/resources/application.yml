@@ -1,5 +1,5 @@
 server:
-  port: 8085   # Config Server will run on this port
+  port: 8888   # Config Server will run on this port
 
 spring:
   application:
